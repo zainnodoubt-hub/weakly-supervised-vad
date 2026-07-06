@@ -1,0 +1,5 @@
+scope=post_feature_mil_forward_only
+excludes_feature_extraction_backbone=ResNet_I3D
+model=attention_mil
+ms_per_bag=0.352522
+reps=20

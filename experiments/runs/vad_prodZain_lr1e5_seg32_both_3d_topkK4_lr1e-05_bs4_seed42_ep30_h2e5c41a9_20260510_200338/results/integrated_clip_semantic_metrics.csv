@@ -1,0 +1,3 @@
+split,model_key,model_name,video_auc,video_ap,semantic_accuracy,semantic_macro_f1,semantic_weighted_f1,num_examples
+val,attention_clip_semantic,Attention MIL + CLIP Semantic,0.9903249495177749,0.9908989327848239,0.9425675675675675,0.2939434179005661,0.9425554088125784,4144
+test,attention_clip_semantic,Attention MIL + CLIP Semantic,0.974228994490358,0.984279258824297,0.8962703962703963,0.24128206474748515,0.8957650742345504,4290

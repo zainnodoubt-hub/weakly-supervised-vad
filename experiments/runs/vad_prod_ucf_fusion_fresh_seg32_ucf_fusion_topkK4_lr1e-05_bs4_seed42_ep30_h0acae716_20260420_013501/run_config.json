@@ -1,0 +1,12 @@
+{
+  "batch_size": 4,
+  "dataset_mode": "ucf",
+  "feature_mode": "fusion",
+  "lr": 1e-05,
+  "max_epochs": 30,
+  "num_segments": 32,
+  "patience": 5,
+  "run_tag": "prod_ucf_fusion_fresh",
+  "seed": 42,
+  "topk_k": 4
+}

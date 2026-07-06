@@ -1,0 +1,12 @@
+{
+  "batch_size": 4,
+  "dataset_mode": "both",
+  "feature_mode": "3d",
+  "lr": 0.0001,
+  "max_epochs": 30,
+  "num_segments": 32,
+  "patience": 5,
+  "run_tag": "prodZain",
+  "seed": 42,
+  "topk_k": 4
+}

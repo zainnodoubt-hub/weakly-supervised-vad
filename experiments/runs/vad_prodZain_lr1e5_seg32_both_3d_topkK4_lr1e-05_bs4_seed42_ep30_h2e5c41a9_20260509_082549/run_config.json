@@ -1,0 +1,31 @@
+{
+  "anomaly_label_set": [
+    "normal",
+    "abuse",
+    "arrest",
+    "arson",
+    "assault",
+    "burglary",
+    "explosion",
+    "fighting",
+    "road accident",
+    "robbery",
+    "shooting",
+    "shoplifting",
+    "stealing",
+    "vandalism",
+    "violence"
+  ],
+  "batch_size": 4,
+  "dataset_mode": "both",
+  "feature_mode": "3d",
+  "lr": 1e-05,
+  "max_epochs": 30,
+  "num_segments": 32,
+  "patience": 5,
+  "run_tag": "prodZain_lr1e5",
+  "seed": 42,
+  "topk_k": 4,
+  "use_bigru_model": true,
+  "use_clip_text_extra_credit": true
+}

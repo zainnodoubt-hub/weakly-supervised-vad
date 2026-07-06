@@ -1,0 +1,16 @@
+,pred_normal,pred_abuse,pred_arrest,pred_arson,pred_assault,pred_burglary,pred_explosion,pred_fighting,pred_road accident,pred_robbery,pred_shooting,pred_shoplifting,pred_stealing,pred_vandalism,pred_violence
+true_normal,3547,3,2,2,3,6,2,4,18,16,0,1,4,9,176
+true_abuse,1,2,0,0,0,1,0,0,1,1,0,0,0,3,0
+true_arrest,1,1,1,0,0,0,0,0,0,2,0,0,1,1,0
+true_arson,1,0,1,5,0,0,1,0,4,0,0,0,1,0,0
+true_assault,0,1,0,0,2,2,0,0,0,0,0,0,1,0,0
+true_burglary,6,0,0,2,2,7,0,0,2,3,0,0,3,4,0
+true_explosion,3,1,1,3,2,3,5,0,1,2,0,1,2,2,0
+true_fighting,1,2,0,0,4,1,0,1,1,3,0,0,0,0,0
+true_road accident,4,0,0,1,1,0,4,3,14,1,0,0,3,0,0
+true_robbery,7,1,3,0,2,1,0,0,0,7,0,1,1,0,0
+true_shooting,6,1,4,1,0,6,0,0,5,1,0,0,4,1,21
+true_shoplifting,11,0,0,0,0,1,0,0,0,10,0,1,1,0,0
+true_stealing,3,0,0,2,0,2,0,0,3,0,0,0,3,0,0
+true_vandalism,4,0,0,1,1,0,1,0,2,1,0,0,1,4,0
+true_violence,230,0,0,0,0,0,0,0,0,0,0,0,0,0,4152

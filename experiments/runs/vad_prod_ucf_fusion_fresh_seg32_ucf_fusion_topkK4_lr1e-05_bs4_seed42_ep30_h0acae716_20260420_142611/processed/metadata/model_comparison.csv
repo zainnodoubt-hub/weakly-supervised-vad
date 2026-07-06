@@ -1,0 +1,3 @@
+Model,Best AUC,Best AP,Best Epoch
+Baseline MIL,0.904,0.9085,2
+Attention MIL,0.9134,0.9142,1

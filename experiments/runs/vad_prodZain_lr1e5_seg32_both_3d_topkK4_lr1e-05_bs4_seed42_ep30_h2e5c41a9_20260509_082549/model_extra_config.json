@@ -1,0 +1,23 @@
+{
+  "anomaly_label_set": [
+    "normal",
+    "abuse",
+    "arrest",
+    "arson",
+    "assault",
+    "burglary",
+    "explosion",
+    "fighting",
+    "road accident",
+    "robbery",
+    "shooting",
+    "shoplifting",
+    "stealing",
+    "vandalism",
+    "violence"
+  ],
+  "num_anomaly_text_labels": 15,
+  "spatiotemporal_mode_note": "Feature-based spatiotemporal MIL: UCF uses R(2+1)D clip features and XD uses fused RGB/Flow I3D bags. This is not raw end-to-end video training.",
+  "use_bigru_model": true,
+  "use_clip_text_extra_credit": true
+}
