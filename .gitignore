@@ -1,0 +1,45 @@
+# Python and Jupyter
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local datasets, extracted features, and experiment outputs
+datasets/
+processed/
+artifacts/
+experiments/
+*.npy
+*.npz
+*.pkl
+*.pt
+*.pth
+
+# Archives and generated exports
+*.zip
+*.html
+*.odt
+
+# Local backups and duplicate working copies
+backups/
+old notebooks/
+AML Final HTMLs/
+AML Updated for Git Backup Files/
+Akeeb Code Final/
+Code to share/
+Final Final AML HTMLS with updated markdowns/
+Final Htmls for evaluations/
+LATEST CODE FOR EXPERIMENTATION/
+Latest HTMLs Best LR and BiGURU/
+/C:*/
+
+# Local assistant/session metadata
+.codex
+task1_session.json
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
