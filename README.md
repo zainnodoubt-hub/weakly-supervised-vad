@@ -110,25 +110,38 @@ The attention-based model improved over the baseline MIL approach, showing that 
 ## Project Structure
 
 ```text
-weakly-supervised-video-anomaly-detection/
+weakly-supervised-vad/
 │
-├── data/                   # Dataset manifests or small metadata files
-├── features/               # Pre-extracted feature bags (not uploaded if large)
-├── notebooks/              # Jupyter notebooks for experiments and analysis
-├── src/                    # Source code for models, training, and evaluation
-│   ├── datasets/           # Dataset loading and preprocessing scripts
-│   ├── models/             # MIL, Attention MIL, BiGRU-MIL, CLIP extensions
-│   ├── training/           # Training loops and loss functions
-│   ├── evaluation/         # Metrics and evaluation utilities
-│   └── visualisation/      # Score curves, UMAP/t-SNE, plots
-│
-├── results/                # Tables, plots, and evaluation outputs
-├── reports/                # Final report and related documentation
-├── logs/                   # Training logs and experiment records
-├── requirements.txt        # Python dependencies
-├── README.md               # Project documentation
-└── .gitignore              # Files and folders excluded from GitHub
+├── experiments/
+│   └── runs/
+│       └── vad_<configuration>_<timestamp>/
+│           ├── processed/
+│           │   ├── metadata/          # Lightweight manifests and training tables
+│           │   └── splits/            # Train, validation, and test split tables
+│           ├── results/
+│           │   ├── figures/           # Curves, heatmaps, UMAP plots, and matrices
+│           │   ├── *.csv              # Metrics, predictions, and comparison tables
+│           │   ├── section_timing.json
+│           │   └── mil_inference_benchmark.*
+│           ├── model_extra_config.json
+│           └── run_config.json
+├── results/
+│   └── evaluation_summary.csv         # Top-level model evaluation summary
+├── 01data_pipeline.ipynb              # Data preparation, metadata, and splits
+├── 02features_dataloader.ipynb        # Feature bags, manifests, and data loaders
+├── 03baseline_mil_loss.ipynb          # MIL models, pooling, and loss functions
+├── 04attention_training.ipynb         # Model training and comparison
+├── 05evaluation.ipynb                 # Final evaluation and visualisation
+├── AML Final Report.pdf               # Final project report
+├── notebook_results_summary.txt       # Consolidated notebook results
+├── README.md                          # Project documentation
+└── .gitignore                         # Excludes datasets, features, checkpoints,
+                                       # environments, archives, and local backups
 ```
+
+The `experiments/runs/` directory contains the timestamped experiment configurations,
+result tables, and figures currently published in this repository. Large feature
+arrays and model/data binaries are intentionally excluded.
 
 ---
 
